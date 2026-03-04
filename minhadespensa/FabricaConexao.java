@@ -31,7 +31,7 @@ public class FabricaConexao {
                 conn.close();
             }
         } catch (SQLException e) {
-            System.out.println("❌ Erro ao conectar: " + e.getMessage());
+            System.out.println(" Erro ao conectar: " + e.getMessage());
             System.out.println("Dica: Verifique se o MySQL está rodando e as credenciais estão corretas.");
         }
     }
@@ -41,3 +41,4 @@ public class FabricaConexao {
     }
 
 }
+
