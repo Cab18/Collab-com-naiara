@@ -9,7 +9,7 @@ public class FabricaConexao {
     // Configurações do banco
     private static final String URL = "jdbc:mysql://localhost:3306/despensa";
     private static final String USUARIO = "root";
-    private static final String SENHA = "Caca2003";
+    private static final String SENHA = "password";
 
     // Método estático para conexão
     public static Connection conectar() throws SQLException {
@@ -39,4 +39,5 @@ public class FabricaConexao {
     public static void main(String[] args) {
         testarConexao();
     }
+
 }
