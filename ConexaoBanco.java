@@ -6,7 +6,7 @@ public class ConexaoBanco {
 
     private static final String URL      = "jdbc:mysql://localhost:3306/despensa";
     private static final String USUARIO  = "root";
-    private static final String SENHA    = "Caca2003";
+    private static final String SENHA    = "password";
 
     // Retorna uma conexão ativa com o banco
     public static Connection getConexao() throws SQLException {
